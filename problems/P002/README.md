@@ -7,10 +7,8 @@ on the user input. Your program must include 4 functions:
 - multiply
 - divide
 
-<details>
-<summary>Persian Description</summary>
+# Persian Description
 برنامه ای بنویسید که با استفاده از چهار تابع, چهار عمل اصلی ریاضی را بر روی دو عدد اعمال کند. برنامه دو عدد از ورودی دریافت کرده و چهار تابع مذکور را با ورودی های دریافتی فراخوانی کرده و حاصل عملیات ها را چاپ کند.
-</details>
 
 # Sample Input/Output
 
