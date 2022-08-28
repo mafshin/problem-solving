@@ -5,10 +5,8 @@ calculates the number of days between these two years.
 
 You can assume each year is 365 days.
 
-<details>
-<summary>Persian Description</summary>
+# Persian Description
 برنامه ای بنویسید که دو عدد مربوط به دو سال را از ورودی دریافت کرده و تعداد روزهای مابین آن دو را تعیین کند (طول تمام سال ها را ۳۶۵ روز در نظر بگیرید)
-</details>
 
 # Sample Input/Output
 
