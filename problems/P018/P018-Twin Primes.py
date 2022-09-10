@@ -17,11 +17,15 @@ def prime_list(n):
     return primes 
 
 def twin_primes(l):
-    for a in l :
-        for b in l :
-            c = a + 2 or a - 2 
-            if c == b :
-                print(a , b)
+    a = 0 
+    twins = []
+    while a < (len(l) - 1) :
+        b = l[a]
+        c = l[a + 1]
+        if (b + 2) == c :
+            twins.append((b , c))
+        a += 1 
+    return twins 
 
 i = prime_list(n)
 print(twin_primes(i))
