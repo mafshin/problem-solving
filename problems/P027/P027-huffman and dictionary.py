@@ -26,7 +26,8 @@ if a.startswith("E") :
             c.update({d[0] : d[1:]})
         for x in b :
             list3.append(c[x])
-        print(list3)
+        y = " ".join(list3)
+        print(y)
 
 if a.startswith("P"): 
     print(encode(a))
