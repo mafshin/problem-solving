@@ -4,16 +4,21 @@ if a.startswith("P") :
     def encode(a): 
         list1 = ['A' , 'B' , 'C' , 'D' , 'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' , 'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' , 'U' , 'V' , 'W' , 'X' , 'Y' , 'Z' , 'a' , 'b' , 'c' ,'d' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' , 'y' , 'z' , '0' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9']
         list2 = []
+        list4 = []
+        dict1 = {}
         b = a[2:].split()
         c = set(b)
         for d in c :
             list2.append(d)
         e = list1[:len(c)]
-        print(e)
         i = 0 
         while i < len(c) :
-            print(f'{list2[i]} : {e[i]}')
+            dict1.update({list2[i] : e[i]})
             i += 1
+        for g in b :
+            list4.append(dict1[g])
+        print(list4)
+        print(dict1)
 
 if a.startswith("E") :
     def decode(a):
