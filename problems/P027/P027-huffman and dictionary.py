@@ -18,7 +18,8 @@ if a.startswith("P") :
         for g in b :
             list4.append(dict1[g])
         print(list4)
-        print(dict1)
+        for h in dict1 :
+            print(f"{h} : {dict1[h]}")
 
 if a.startswith("E") :
     def decode(a):
