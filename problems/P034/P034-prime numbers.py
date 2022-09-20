@@ -5,7 +5,7 @@ def prime_number_list(n):
     a = str(n)
     b = 0 
     while b < len(a):
-        for c in range((b + 1) , (len(a))):
+        for c in range((b + 1) , (len(a) + 1)):
             d = a[b : c]
             numbers.append(int(d))
         b += 1
@@ -25,6 +25,6 @@ def is_prime(r):
     for t in r :
         if t == 1 :
             r.remove(1)
-    return r     
+    return set(r)     
 
 print(is_prime(r))
