@@ -23,8 +23,11 @@ def is_prime(r):
     for i in myset:
         r.remove(i)
     for t in r :
-        if t == 1 :
+        if t == 1:
             r.remove(1)
+    for s in r :
+        if s == 0:
+            r.remove(0)
     return set(r)     
 
 print(is_prime(r))
