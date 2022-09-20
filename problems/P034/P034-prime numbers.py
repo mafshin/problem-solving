@@ -9,7 +9,7 @@ def prime_number_list(n):
             d = a[b : c]
             numbers.append(int(d))
         b += 1
-    return numbers
+    return list(set(numbers))
 
 r = prime_number_list(n)
 
