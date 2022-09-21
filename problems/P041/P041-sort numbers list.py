@@ -1,5 +1,5 @@
 n = input("Enter the numbers: ").split()
-o = input("Enter the dort form: ")
+o = input("Enter the sort form: ")
 m = list(map(lambda x : int(x) , n))
 p = []
 for x in m :
