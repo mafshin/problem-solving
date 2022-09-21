@@ -21,6 +21,7 @@ if a.startswith("P") :
         print(z)
         for h in dict1 :
             print(f"{h}  {dict1[h]}")
+    print(encode(a))
 
 if a.startswith("E") :
     def decode(a):
@@ -35,8 +36,4 @@ if a.startswith("E") :
             list3.append(c[x])
         y = " ".join(list3)
         print(y)
-
-if a.startswith("P"): 
-    print(encode(a))
-if a.startswith("E"):
     print(decode(a))
