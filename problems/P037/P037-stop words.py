@@ -1,13 +1,13 @@
 a = input("Enter the text: ").split()
 
-list1 = []
+words = []
 b = " "
 while b != "END" :
     b = input("Enter: ")
-    list1.append(b)
-list1.remove("END")
+    words.append(b)
+words.remove("END")
 
-for c in list1 :
+for c in words :
     for d in range(a.count(c)):
         a.remove(c)
     for e in a :
