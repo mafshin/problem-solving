@@ -1,17 +1,18 @@
 n = int(input("Enter the 1st row of the matrix: "))
 m = int(input("Enter the 1st column of the matrix: "))
 p = int(input("Enter the number of columns of the 2nd matrix: "))
-x = []
-y = []
+c = []
+d = []
 for a in range(n):
     a = input("Enter the numbers of 1st matrix: ").split()
-    x.append(a)
+    c.append(a)
 for b in range(m):
     b = input("Enter the numbers of 2nd matrix: ").split()
-    y.append(b)
+    d.append(b)
 
-def matrix(e , r):
-    c = list(map(lambda x : list(map(lambda y : int(y) , x)) , e))
-    d = list(map(lambda x : list(map(lambda y : int(y) , x)) , r))
+x = list(map(lambda x : list(map(lambda y : int(y) , x)) , c))
+y = list(map(lambda x : list(map(lambda y : int(y) , x)) , d))
 
-print(matrix(x , y))
+def multiplication_matrix(x , y):
+
+print(multiplication_matrix(x , y))
