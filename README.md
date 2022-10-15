@@ -1,5 +1,5 @@
 # Real-world Problems for Learning Programming
-A comprehensive set of original problems to strengthen your coding skills
+A comprehensive list of original problems to strengthen your coding skills
 
 1- [Problem 001](problems/P001)
 
