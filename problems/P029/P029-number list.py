@@ -33,7 +33,20 @@ def Max(n):
 def Min(n):
     return n[0]
 
-# def highest_count(n):
+def highest_count(n):
+    numbers = []
+    counts = []
+    for a in n :
+        b = n.count(a) 
+        counts.append(b)
+    c = counts.index(max(counts))
+    numbers.append(n[c])
+    for d in range(max(counts)):
+        counts[c] = 0
+        c += 1
+    e = counts.index(max(counts))
+    numbers.append(n[e])
+    return numbers
 
 def multiply(n) :
     a = 1 
