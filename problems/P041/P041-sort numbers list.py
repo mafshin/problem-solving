@@ -5,26 +5,20 @@ p = []
 for x in m :
     p.append(x)
 
-if o == "ACS" :
-    def ascending(m , p):
-        list1 = [] 
-        a = 0 
-        while a < len(p):
+
+def ascending_and_descending(m , p):
+    list1 = [] 
+    a = 0 
+    while a < len(p):
+        if o == 'ASC':
             b = min(m)
             list1.append(b)
             m.remove(b)
             a += 1
-        return list1 
-    print(ascending(m , p))
-
-if o == "DECS" :
-    def descending(m , p):
-        list1 = [] 
-        a = 0 
-        while a < len(p):
-            b = max(m)
-            list1.append(b)
-            m.remove(b)
+        if o == 'DESC':
+            c = max(m)
+            list1.append(c)
+            m.remove(c)
             a += 1
-        return list1 
-    print(descending(m , p))
+    return list1 
+print(ascending_and_descending(m , p))
