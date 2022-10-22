@@ -31,11 +31,11 @@ else:
         return (list1.index(n))
     h = prime_list(n)
 
-    print(f'{n} is a prime number')
-    print(f'{n} is {h + 1}th prime number')
+    print(f'{n} is a prime number.')
+    print(f'{n} is {h + 1}th prime number.')
     a = n - 1 
     b = n + 1 
     if (is_prime(a + 1) and is_prime(a - 1)) :
-        print(f'{a} - 1 and {a} + 1 are twin prime numbers')
+        print(f'{a} - 1 and {a} + 1 are twin prime numbers.')
     if (is_prime(b + 1) and is_prime(b - 1)) :
-        print(f'{b} - 1 and {b} + 1 are twin prime numbers')
+        print(f'{b} - 1 and {b} + 1 are twin prime numbers.')
