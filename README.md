@@ -70,3 +70,33 @@ A comprehensive list of original problems to strengthen your coding skills
 34- [Problem 034](problems/P034)
 
 35- [Problem 035](problems/P035)
+
+36- [Problem 036](problems/P036)
+
+37- [Problem 037](problems/P037)
+
+38- [Problem 038](problems/P038)
+
+39- [Problem 039](problems/P039)
+
+40- [Problem 040](problems/P040)
+
+41- [Problem 041](problems/P041)
+
+42- [Problem 042](problems/P042)
+
+43- [Problem 043](problems/P043)
+
+44- [Problem 044](problems/P044)
+
+45- [Problem 045](problems/P045)
+
+46- [Problem 046](problems/P046)
+
+47- [Problem 047](problems/P047)
+
+48- [Problem 048](problems/P048)
+
+49- [Problem 049](problems/P049)
+
+50- [Problem 050](problems/P050)
