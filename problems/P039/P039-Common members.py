@@ -17,5 +17,6 @@ while b < len(q):
                 b += 1 
             else:
                 b += 1
+
 numbers.remove('a')
 print(numbers)
