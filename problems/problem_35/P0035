@@ -17,7 +17,6 @@ for a in range(1,len(input_text)):
             list_2.append(input_text[start:end])
         start += 1
         end += 1
-print(max(list_2))
 for d in list_2:
     y = 0
     for e in list_2:
@@ -28,8 +27,9 @@ for d in list_2:
 list_3.append(input_text.index(t))
 for s in list_1:
     list_3.append(s.index(t))
-k = max(list_3)
-print(k)
+print((max(list_3)-list_3[0])*'#'+input_text)
+for q in range(0,len(list_1)):
+    print((max(list_3)-list_3[q+1])*'#'+list_1[q])
 # some yes ok
 # yes will some do it
 # it is somehow good yes
