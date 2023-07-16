@@ -1,3 +1,5 @@
+[![Python Tests](https://github.com/mafshin/problem-solving/actions/workflows/pytest.yaml/badge.svg)](https://github.com/mafshin/problem-solving/actions)
+
 # Real-world Problems for Learning Programming
 A comprehensive list of original problems to strengthen your coding skills
 
