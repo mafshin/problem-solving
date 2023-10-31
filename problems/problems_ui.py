@@ -26,4 +26,4 @@ with ui.row():
         ui.separator()
 
 
-ui.run()
+ui.run(port=80)
