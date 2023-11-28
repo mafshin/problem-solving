@@ -1,3 +1,8 @@
+import os
+import sys
+for dir in [f for f in os.listdir('.') if os.path.isdir(os.path.join('.', f))]:
+    sys.path.append(dir)
+
 from nicegui import ui
 from P001 import p001_ui
 from P002 import p002_ui

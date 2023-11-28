@@ -1,6 +1,6 @@
 from nicegui import ui
 
-from P001.p001 import solution
+from p001_solution import solution
 
 class Options:
     def __init__(self):

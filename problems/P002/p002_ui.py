@@ -1,6 +1,5 @@
 from nicegui import ui
-from P001.p001 import *
-from P002.p002 import add, divide, multiply, subtract
+from p002_solution import add, divide, multiply, subtract
 
 class Options:
     def __init__(self):
